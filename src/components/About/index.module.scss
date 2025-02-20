@@ -1,0 +1,23 @@
+.content {
+	margin-top: 3rem;
+}
+
+.text {
+	max-width: 40rem;
+
+	> h2 {
+		font-size: 2rem;
+	}
+
+	> p {
+		margin-top: 1rem;
+		margin-bottom: 5rem;
+		color: var(--secondary-color);
+	}
+
+	@media (width <= 425px) {
+		> p {
+			text-align: justify;
+		}
+	}
+}

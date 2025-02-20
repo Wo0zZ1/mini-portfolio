@@ -1,0 +1,25 @@
+.header {
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 4.5rem;
+	padding: 0.75rem 3rem;
+	background-color: var(--bg-dark-color);
+	border-bottom: 1px solid #aeabc210;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+
+	img {
+		height: 2.25rem;
+		margin-right: 10px;
+	}
+	span {
+		font-weight: 800;
+		font-size: 1.25rem;
+	}
+}
