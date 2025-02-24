@@ -9,6 +9,15 @@ function Header() {
 				<img src={logo} alt='logo' />
 				<span>Макс | Wo0zZ1</span>
 			</a>
+			<nav className={styles.nav}>
+				<ul>
+					<li>
+						<a href='#about'>Введение</a>
+						<a href='#skills'>Навыки</a>
+						<a href='#experience'>Проекты</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 	)
 }

@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 
 function Skills() {
 	return (
-		<section className='container'>
+		<section id='skills' className='container'>
 			<div className={styles.content}>
 				<div className={styles.text}>
 					<h2>Навыки.</h2>

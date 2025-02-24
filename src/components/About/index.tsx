@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 
 function About() {
 	return (
-		<section className='container'>
+		<section id='about' className='container'>
 			<div className={styles.content}>
 				<div className={styles.text}>
 					<h2>Введение.</h2>

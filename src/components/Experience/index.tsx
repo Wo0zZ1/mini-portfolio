@@ -5,7 +5,7 @@ import styles from './index.module.scss'
 
 function Experience() {
 	return (
-		<section className='container'>
+		<section id='experience' className='container'>
 			<div className={styles.content}>
 				<div className={styles.text}>
 					<h2>Проекты.</h2>
